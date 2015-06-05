@@ -20,4 +20,16 @@ public class Connection {
 		}
 	}
 
+	public ObjectOutputStream getOut() {
+		return out;
+	}
+
+	public ObjectInputStream getIn() {
+		return in;
+	}
+
+	public Socket getS() {
+		return s;
+	}
+
 }
